@@ -1,0 +1,9 @@
+my_bigquery_profile:
+  target: dev
+  outputs
+    dev:
+      type: bigquery
+      method: oauth
+      project: project-dbt-418514
+      dataset: dbt-cloud-418422.dbt_dataset
+      threads: 1
