@@ -5,5 +5,5 @@ my_bigquery_profile:
       type: bigquery
       method: oauth
       project: project-dbt-418514
-      dataset: dbt-cloud-418422.dbt_dataset
+      dataset: project-dbt-418514.dbt_dataset
       threads: 1
