@@ -1,0 +1,15 @@
+version: 2
+ 
+sources:
+    - name: sources
+    database: dbt_dataset
+    schema: public
+    tables:
+      - name: categories
+      - name: products
+      - name: suppliers
+      - name: employees
+      - name: orderdetails
+      - name: customers
+      - name: orders
+      - name: shippers
