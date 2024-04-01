@@ -14,3 +14,6 @@ left join {{'dbt_dataset.categories'}} ct on (pd.categoryid = ct.categoryid)
     left join prod pd on (od.productid = pd.productid)
 )
 select * from orddetai
+
+select *
+from {{source('dbt_dataset','orderdetails')}}
